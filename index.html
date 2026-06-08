@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelforge Creative - Design & Development</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <ul class="header-container-logo">
+                <li><a href="#" class="logo"><img src="./img/logo.png" alt="#" id="img-1"></a></li>
+            </ul>
+            <div class="menu-icon-phone">
+                <a href="#" class="menu-toggle">
+                    <img src="./img/MENU.png" alt="menu-ver-mas" id="icon-phone">
+                </a>
+            </div>
+            <ul class="header-container-nav" id="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sevicios</a></li>
+                <li><a href="#">Portafolio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><button>Contacto</button></li>
+            </ul>
+        </div>
+        <div class="header-container-text">
+            <div class="header-container-text-info">
+                <h1>CREAMOS EXPERIENCIAS DIGITALES QUE IMPULSAN TU NEGOCIO.</h1>
+                <p>Diseño web, desarrollo y estrategia digital para marcas innovadoras.</p>
+                <button>EMPEZAR UN PROYECTO</button>
+            </div>
+            <img src="./img/image1.jpeg" alt="#" id="img-2">
+        </div>
+        
+    </header>
+
+    <div class="main-content-part-1">
+        <div class="container-tittle-1">
+            <h1 class="tittle-1">Nuestros servicios principales</h1>
+        </div>
+        <div class="services">
+            <div class="service-1">
+                <img src="./assets/1.png" alt="diseño de pagina web a tu medida">
+                <h2>DISEÑO WEB</h2>
+                <p>interfaces hermosas y funcinales</p>
+            </div>
+            <div class="service-2">
+                <img src="./assets/2.png" alt="desarrollo de pagina web a tu medida">
+                <h2>DESAROLLO A TU MEDIDA</h2>
+                <p>Soluciones robustas y escalables</p>
+            </div>
+            <div class="service-3">
+                <img src="./assets/3.png" alt="estrategia digital">
+                <h2>ESTRATEGIA DIGITAL</h2>
+                <p>Crece tu presencia y visibilidad en línea</p>
+            </div>
+                <div class="service-4">
+                <img src="./assets/4.png" alt="diferentes dispositivos, moviles y escritorio">
+                <h2>APPS MOVILES</h2>
+                <p>Experiencas nativas y multiplataforma</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-content-part-2">
+        <h2>PROYECTOS RECIENTES</h2>
+
+        <div class="apps-recent">
+            <div class="app-phone">
+                <img src="./img/phone.png" alt  ="app phone">
+                <p>App Móvil para Fitness</p>
+            </div>
+            <div class="E-commerce">
+                <img src="./img/ecommerce.png" alt="e-commerce">
+                <p>E-commerce para Retail</p>
+            </div>
+            <div class="Dashboard-data">
+                <img src="./img/dashboard.png" alt="dashboard data">
+                <p>Dashboard de Analytics</p>
+            </div>
+            <div class="barnd-start-up">
+                <img src="./img/start-up.png" alt="brand start up">
+                <p>Brand para Start-up</p>
+            </div>
+            <button class="see-more-proyects">VER MÁS PROYECTOS</button>
+        </div>
+    </div>
+
+    <footer class="footer-content">
+        <div class="footer-content-info">
+            <div class="logo-footer">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="footer-content-info-links">
+                <p>Aviso legal</p>
+                <p>Politica de Privacidad</p>
+            </div>
+            <div class="footer-content-info-social">
+                <p>Social Media</p>
+                <div class="links-social">
+                   <img src="./assets/github.png" alt="github">
+                <img src="./assets/linkedin.png" alt="linkedin">
+                <img src="./assets/instagram.png" alt="instagram">
+                </div>
+            </div>
+            <div class="contact">
+                <p>Suscribete a nuestro newsletter</p>
+                <div class="email-input-container">
+                    <input type="email" placeholder="Coloca tú e-mail..." class="email-input">
+                    <button class="join-button">UNIRSE</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content-copyright">
+            <p>© 2025 Pixelforge Creative. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const toggle = document.querySelector(".menu-toggle");
+        const menu = document.getElementById("menu");
+
+        toggle.addEventListener("click", (e) => {
+            e.preventDefault(); // evita que recargue por el href="#"
+            menu.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>

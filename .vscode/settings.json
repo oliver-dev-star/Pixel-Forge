@@ -1,0 +1,15 @@
+{
+    "html.suggest.html5": true,
+    "css.validate": true,
+    "editor.quickSuggestions": {
+        "strings": true,
+        "comments": true,
+        "other": true
+    },
+    "editor.tabCompletion": "on",
+    "editor.suggestSelection": "first",
+    "editor.wordBasedSuggestions": true,
+    "css.completion.triggerPropertyValueCompletion": true,
+    "css.completion.completePropertyWithSemicolon": true,
+    "css.lint.unknownProperties": "warning"
+}

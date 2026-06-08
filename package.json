@@ -1,0 +1,16 @@
+{
+    "name": "pixelforge-creative",
+    "version": "1.0.0",
+    "description": "Design & Development Website",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server --port=3000",
+        "dev": "live-server --port=3000 --open=/index.html"
+    },
+    "devDependencies": {
+        "live-server": "^1.2.2"
+    },
+    "keywords": ["html", "css", "web", "design", "development"],
+    "author": "Pixelforge Creative",
+    "license": "MIT"
+}

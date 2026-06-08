@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "html-css-support.css-class-intellisense",
+        "css-intellisense.css-intellisense",
+        "bradlc.vscode-tailwindcss",
+        "formulahendry.auto-rename-tag",
+        "ritwickdey.liveserver"
+    ]
+}
